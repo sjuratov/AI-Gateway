@@ -104,8 +104,8 @@
       "georgeollis"
     ],
     "tags": [],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/ai-foundry-hosted-agents-custom-framework",
-    "lastCommitDate": "2026-07-10T17:20:32.613Z"
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/ai-foundry-hosted-agents-custom-framework",
+    "lastCommitDate": "2026-10-28T11:00:57.848Z"
   },
   {
     "id": "ai-foundry-model-gateway",
@@ -198,8 +198,8 @@
       "georgeollis"
     ],
     "tags": [],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/ai-foundry-toolbox",
-    "lastCommitDate": "2026-07-24T10:50:22.024Z"
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/ai-foundry-toolbox",
+    "lastCommitDate": "2026-10-28T11:00:57.849Z"
   },
   {
     "id": "aigw-foundry-models",
@@ -220,8 +220,8 @@
       "vieiraae"
     ],
     "tags": [],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/aigw-foundry-models",
-    "lastCommitDate": "2026-07-29T14:13:17.339Z"
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/aigw-foundry-models",
+    "lastCommitDate": "2026-10-28T11:00:57.849Z"
   },
   {
     "id": "apim-purview-dlp",
@@ -242,8 +242,8 @@
       "inwafula"
     ],
     "tags": [],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/apim-purview-dlp",
-    "lastCommitDate": "2026-08-07T10:31:30.874Z"
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/apim-purview-dlp",
+    "lastCommitDate": "2026-10-28T11:00:57.850Z"
   },
   {
     "id": "aws-bedrock",
@@ -385,9 +385,9 @@
     "authors": [
       "vieiraae"
     ],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/finops-framework",
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/finops-framework",
     "tags": [],
-    "lastCommitDate": "2026-06-23T13:28:02.177Z"
+    "lastCommitDate": "2026-10-28T11:00:57.850Z"
   },
   {
     "id": "foundry-e2e-private",
@@ -565,8 +565,8 @@
       "nourshaker-msft"
     ],
     "tags": [],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/ghcp-byok-foundry",
-    "lastCommitDate": "2026-07-06T10:25:14.677Z"
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/ghcp-byok-foundry",
+    "lastCommitDate": "2026-10-28T11:00:57.851Z"
   },
   {
     "id": "google-gemini-api",
@@ -672,6 +672,34 @@
     "lastCommitDate": "2026-06-23T13:28:02.184Z"
   },
   {
+    "id": "mcp-from-graphql",
+    "name": "MCP from GraphQL",
+    "architectureDiagram": "images/mcp-from-graphql.png",
+    "categories": [
+      "AI Agents"
+    ],
+    "services": [
+      "Azure API Management",
+      "Azure API Center",
+      "Microsoft Foundry",
+      "Azure Container Apps",
+      "Azure Container Registry"
+    ],
+    "shortDescription": "Import a GraphQL API into API Management, translate its schema into MCP tools, discover both surfaces through an API Center integration, and consume the tools with Microsoft Agent Framework.",
+    "detailedDescription": "The Countries GraphQL API is imported as a native pass-through GraphQL API in Azure API Management. A pinned graphql-mcp translator runs on Azure Container Apps, introspects the managed GraphQL endpoint, and generates read-only MCP tools. API Management exposes the translator as a governed Streamable HTTP MCP server. An API Center integration uses managed identity and API Management Service Reader access to continuously discover the GraphQL and MCP APIs and import their specifications. A Microsoft Agent Framework agent uses the MCP tools while its model traffic also passes through API Management.",
+    "authors": [
+      "nourshaker-msft"
+    ],
+    "tags": [
+      "GraphQL",
+      "MCP",
+      "Agent Framework",
+      "API Center"
+    ],
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/mcp-from-graphql",
+    "lastCommitDate": "2026-10-28T11:00:57.851Z"
+  },
+  {
     "id": "mcp-prm-oauth",
     "name": "MCP Protected Resources Metadata (PRM)",
     "architectureDiagram": "images/mcp-prm-oauth.gif",
@@ -688,9 +716,9 @@
     "authors": [
       "nourshaker-msft"
     ],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/mcp-prm-oauth",
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/mcp-prm-oauth",
     "tags": [],
-    "lastCommitDate": "2026-08-06T09:18:53.054Z"
+    "lastCommitDate": "2026-10-28T11:00:57.852Z"
   },
   {
     "id": "mcp-registry-apic",
@@ -795,9 +823,9 @@
       "simonkurtz-MSFT",
       "nourshaker-msft"
     ],
-    "githubPath": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/model-routing",
+    "githubPath": "https://github.com/sjuratov/AI-Gateway/tree/main/labs/model-routing",
     "tags": [],
-    "lastCommitDate": "2026-07-06T10:25:14.678Z"
+    "lastCommitDate": "2026-10-28T11:00:57.852Z"
   },
   {
     "id": "openai-agents",
